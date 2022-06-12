@@ -1,6 +1,5 @@
 import styles from "./MovieCard.module.css";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import placeholder from "../utils/placeholder.jpg";
+import { BrowserRouter as  Link } from "react-router-dom";
 import { getMoviePost } from "../hooks/getMoviePost";
 export function MovieCard({ movie }) {
   const imgUrl = getMoviePost(movie.poster_path, 300);

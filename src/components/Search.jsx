@@ -1,12 +1,10 @@
 import styles from "./Search.module.css";
-import { useEffect, useState } from "react";
 import { useHistory } from "react-router-dom";
 import { useQuery } from "../hooks/useQuery";
 
 export function Search() {
   const query = useQuery();
   const search = query.get("search");
-  const [searchText, setSearchText] = useState("");
   const history = useHistory();
 
   const handleSubmit = (e) => {

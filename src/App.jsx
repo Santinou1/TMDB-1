@@ -1,4 +1,3 @@
-import { MoviesGrid } from "./components/MoviesGrid";
 import styles from "./App.module.css";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import { MovieDetails } from "./pages/MovieDetails";
@@ -10,7 +9,7 @@ export function App() {
         <hr className={styles.hr} />
         <Link to="/">
           {" "}
-          <h1 className={styles.title}>Movies</h1>{" "}
+          <h1 className={styles.title}>🍿🍿 Movies 🍿🍿</h1>{" "}
         </Link>
         <hr className={styles.hr1} />
         <Link to="/"></Link>
