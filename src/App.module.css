@@ -1,0 +1,29 @@
+.title {
+  position: relative;
+  font-size: 60px;
+  font-family: "Avenir Next", sans-serif;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 8px 6px white,
+ 0px -5px 35px rgba(255,255,255,0.3);
+
+}
+
+  @media (max-width: 770px) {
+  .title {
+    position: relative;
+    font-size: 60px;
+    font-family: "Avenir Next", sans-serif;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 8px 6px white,
+   0px -5px 35px rgba(255,255,255,0.3);
+  }
+}  
+
+
+
+
+
+
+
