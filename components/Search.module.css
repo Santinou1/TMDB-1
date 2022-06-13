@@ -1,0 +1,48 @@
+.box {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.input {
+  padding: 10px;
+  width: 40px;
+  height: 40px;
+  background: none;
+  border: 4px solid yellow;
+  border-radius: 50px;
+  box-sizing: border-box;
+  font-family: Comic Sans MS;
+  font-size: 26px;
+  color: white;
+  outline: none;
+  transition: 0.5s;
+}
+.box:hover input {
+  width: 350px;
+  background: gray;
+  border-radius: 10px;
+}
+
+.box:hover i {
+  opacity: 0;
+  z-index: -1;
+}
+
+@media (max-width: 1400px) {
+  .box {
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+} 
+
+@media (max-width: 800px) {
+  .box {
+    position: absolute;
+    top: 32.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
